@@ -89,6 +89,7 @@ struct MainImmersiveView: View {
                             .background(.ultraThinMaterial, in: Capsule())
                             .foregroundStyle(.white)
                             .shadow(radius: 16)
+                            .scaleEffect(x: -1, y: 1)
                     }
                     .padding(.trailing, 40)
                     .padding(.bottom, 40)
